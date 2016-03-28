@@ -1,0 +1,6 @@
+www:
+  image: nginx
+  ports:
+    - 80
+  environment:
+    NGINX_PORT: "80"

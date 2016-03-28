@@ -1,0 +1,30 @@
+{
+  "name": "docker-compose-port",
+  "version": "1.0.0",
+  "description": "Find the ip and port of a docker-compose service",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eugeneware/docker-compose-port"
+  },
+  "keywords": [
+    "docker",
+    "compose",
+    "docker-compose",
+    "port",
+    "docker-port"
+  ],
+  "author": "Eugene Ware <eugene@noblesamurai.com>",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/eugeneware/docker-compose-port/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "request": "^2.69.0",
+    "tape": "^4.4.0"
+  }
+}
